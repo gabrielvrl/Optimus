@@ -6,7 +6,7 @@ import api from '../services/api';
 
 import logo from '../assets/logo.png';
 
-export default function AnaliseProjeto({ history }){
+export default function PropostaAjustada({ history }){
     const [username, setUsername] =useState('');
 
     async function handleCadastrar(e){
@@ -17,12 +17,13 @@ export default function AnaliseProjeto({ history }){
     }
 
     return(
-        <div className="aprovar-container">
+        <div className="login-container">
             <a href="/"> 
             <img src={logo} alt="Optimus" />
             </a>
             <form onSubmit={handleCadastrar}>
-                <h2>Análise Inicial</h2>
+                <h2>Essa proposta foi alterada</h2>
+                <h1>Por favor, reavalie o projeto</h1>
                 <h1>Proposta foi enviada em meio digital e por escrito?</h1>
                 Sim<input type="radio" name="enviada" />
                 Não. Nesse caso, não será avaliada<input type="radio" name="enviada" />
@@ -34,8 +35,9 @@ export default function AnaliseProjeto({ history }){
                 <textarea 
                     placeholder="Observações"
                     type = "text"
-                />         
-                <button onClick={handleCadastrar} type="cadastrar">Enviar</button>
+                />        
+                <button onClick={handleCadastrar} type="cadastrar">Aprovada</button>
+                <button onClick={handleCadastrar} type="cadastrar">Recusada</button>
             </form>
         </div>
     );

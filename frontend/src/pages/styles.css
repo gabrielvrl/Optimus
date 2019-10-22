@@ -1,0 +1,126 @@
+.login-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.login-container form{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container form input{
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 48px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.login-container form textarea{
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 48px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.login-container form input ::placeholder{
+    color: #999
+}
+
+.radio {
+    color: #000
+}
+
+.login-container form button{
+    margin-top: 10px;
+    border: 0;
+    border-radius: 4px;
+    height: 48px;
+    font-size: 16px;
+    background: #DF4723;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+}
+
+h1 {
+    display: block;
+    font-size: 16px;
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+/*   APROVAR USUARIO   */
+
+.aprovar-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.aprovar-container form{
+    width: 100%;
+    max-width: 600px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+
+.aprovar-container form input{
+    /*margin-top: 20px;*/
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 48px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+    flex-direction: row;
+}
+
+.aprovar-container form textarea{
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 48px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.aprovar-container form input ::placeholder{
+    color: #999
+}
+
+.radio {
+    color: #000
+}
+
+.aprovar-container form button{
+    margin-top: 10px;
+    border: 0;
+    border-radius: 4px;
+    height: 48px;
+    font-size: 16px;
+    background: #DF4723;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+}

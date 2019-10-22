@@ -6,6 +6,9 @@ import Main from './pages/Main';
 import Cadastro from './pages/Cadastro';
 import CadastrarProjeto from './pages/CadastrarProjeto';
 import AnaliseProjeto from './pages/AnaliseProjeto';
+import AprovarUsuario from './pages/AprovarUsuario';
+import Devolver from './pages/Devolver';
+import PropostaAjustada from './pages/PropostaAjustada';
 
 export default function Routes() {
     return(
@@ -16,6 +19,9 @@ export default function Routes() {
             <Route path="/cadastro" component={Cadastro} />
             <Route path="/cadastrarprojeto" component={CadastrarProjeto} />
             <Route path="/analiseprojeto" component={AnaliseProjeto} />
+            <Route path="/aprovarusuario" component={AprovarUsuario} />
+            <Route path="/devolver" component={Devolver} />
+            <Route path="/propostaajustada" component={PropostaAjustada} />
         </BrowserRouter>
     );
 }

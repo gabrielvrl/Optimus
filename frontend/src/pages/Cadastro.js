@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import './Cadastro.css';
+
+import './styles.css'
 
 import api from '../services/api';
 
 import logo from '../assets/logo.png';
 
-export default function Login({ history }){
+export default function Cadastro({ history }){
     const [username, setUsername] =useState('');
     const [name, setName] =useState('');
     const [cargo, setCargo] =useState('');
@@ -40,6 +41,9 @@ export default function Login({ history }){
                 />
                 <input 
                     placeholder="Digite sua senha"
+                />
+                <input 
+                    placeholder="Digite novamente sua senha"
                 />
                 <input 
                     placeholder="Digite seu cargo"

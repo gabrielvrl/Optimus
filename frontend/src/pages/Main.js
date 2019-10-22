@@ -1,5 +1,7 @@
 import React from 'react';
-import './Main.css';
+
+import './styles.css'
+
 //, { useState }
 //import api from '../services/api';
 
