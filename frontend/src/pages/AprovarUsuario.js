@@ -22,15 +22,15 @@ export default function AprovarUsuario({ history }){
             <img src={logo} alt="Optimus" />
             </a>
             <form onSubmit={handleCadastrar}>
-                <h2>Aprovar tipo de usuário</h2><br />
-                <h1>Diretor da ICT</h1><input type="checkbox" />
-                <h1>Gerente de projeto</h1><input type="checkbox" />
-                <h1>Avaliador Setor de Projetos</h1><input type="checkbox" />
-                <h1>Avaliador CTC</h1><input type="checkbox" />
-                <h1>Membro OCS</h1><input type="checkbox" />
-                <h1>Avaliador "AD HOC"</h1><input type="checkbox" />
-                <h1>Stakeholders</h1><input type="checkbox" />
-                <h1>Outros</h1><input type="checkbox" />
+                <div class="form-inline"><h2>Aprovar tipo de usuário</h2><br /></div>
+                <div class="form-inline"><h1></h1><input type="checkbox" />Diretor da ICT</div>
+                <div class="form-inline"><h1></h1><input type="checkbox" />Gerente de projeto</div>
+                <div class="form-inline"><h1></h1><input type="checkbox" />Avaliador Setor de Projetos</div>
+                <div class="form-inline"><h1></h1><input type="checkbox" />Avaliador CTC</div>
+                <div class="form-inline"><h1></h1><input type="checkbox" />Membro OCS</div>
+                <div class="form-inline"><h1></h1><input type="checkbox" />Avaliador "ADHOC"</div>
+                <div class="form-inline"><h1></h1><input type="checkbox" />Stakeholders</div>
+                <div class="form-inline"><h1></h1><input type="checkbox" />Outros</div>
 
                 <button onClick={handleCadastrar} type="cadastrar">Enviar</button>
             </form>

@@ -9,6 +9,8 @@ import AnaliseProjeto from './pages/AnaliseProjeto';
 import AprovarUsuario from './pages/AprovarUsuario';
 import Devolver from './pages/Devolver';
 import PropostaAjustada from './pages/PropostaAjustada';
+import AnaliseCTC from './pages/AnaliseCTC';
+import Avaliador from './pages/Avaliador'
 
 export default function Routes() {
     return(
@@ -22,6 +24,8 @@ export default function Routes() {
             <Route path="/aprovarusuario" component={AprovarUsuario} />
             <Route path="/devolver" component={Devolver} />
             <Route path="/propostaajustada" component={PropostaAjustada} />
+            <Route path="/analisectc" component={AnaliseCTC} />
+            <Route path="/avaliador" component={Avaliador} />
         </BrowserRouter>
     );
 }
