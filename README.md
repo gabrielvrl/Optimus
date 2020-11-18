@@ -14,4 +14,4 @@
 ### Project Analysis
 ![TelaAnaliseDeProjeto](https://user-images.githubusercontent.com/22225821/99595717-f9293e00-29d3-11eb-956a-af5b5beb9085.png)
 
-If you want to see all the screens, click <a href=“https://github.com/gabrielvrl/Optimus/tree/master/Imagens“>here</a>
+If you want to take a look on all screens of the App, they are [here](https://github.com/gabrielvrl/Optimus/tree/master/Imagens)
